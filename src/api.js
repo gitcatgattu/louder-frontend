@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:5000/api', // or your hosted backend URL
+  baseURL: 'https://louder-backend.onrender.com', // or your hosted backend URL
 });
 
 export const getEvents = () => API.get('/events');
